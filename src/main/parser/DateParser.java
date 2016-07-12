@@ -2,7 +2,7 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package parser;
+package main.parser;
 
 import main.Globals;
 

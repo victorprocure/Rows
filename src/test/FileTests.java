@@ -4,12 +4,12 @@
 
 package test;
 
+import main.parser.FileParser;
+import main.record.IRecordBuilder;
+import main.record.VestRecord;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import parser.FileParser;
-import record.IRecordBuilder;
-import record.VestRecord;
 
 public class FileTests {
     private FileParser parser;

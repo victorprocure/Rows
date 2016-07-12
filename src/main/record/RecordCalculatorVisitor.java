@@ -2,16 +2,16 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package record;
+package main.record;
 
-import helpers.RecordHelper;
+import main.helpers.RecordHelper;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.TreeSet;
 
 /**
- * The record visitor visits all record types and for the most part adds them to a set list for calculations once
+ * The main.record visitor visits all main.record types and for the most part adds them to a set list for calculations once
  * all records have been visited per user
  *
  * @author Victor Procure
@@ -64,7 +64,7 @@ public class RecordCalculatorVisitor implements IRecordVisitor{
      * I did abandon these ideas in favor of a quick solution.
      * <p>
      * The best I could come up with was iterating through all vested option records, processing sales that came closest
-     * to the record date of those vested options. Then removing that sale from the list of records, to ensure it didn't
+     * to the main.record date of those vested options. Then removing that sale from the list of records, to ensure it didn't
      * get processed twice. Once that is done I calculate performance on the remaining vested options.
      * <p>
      * This method is a blatant violation of SRP, however for the sake of getting this solution done quickly due to time
@@ -83,7 +83,7 @@ public class RecordCalculatorVisitor implements IRecordVisitor{
             MarketPriceRecord marketPriceRecord = RecordHelper.getMarketPrice(vr, this.marketRecords);
 
             if(marketPriceRecord == null){
-                throw new IllegalArgumentException("Must have market price record");
+                throw new IllegalArgumentException("Must have market price main.record");
             }
 
             if(this.saleRecords.iterator().hasNext()) {

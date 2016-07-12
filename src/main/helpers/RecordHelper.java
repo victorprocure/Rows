@@ -2,12 +2,12 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package helpers;
+package main.helpers;
 
-import record.MarketPriceRecord;
-import record.PerformanceRecord;
-import record.SaleRecord;
-import record.VestRecord;
+import main.record.MarketPriceRecord;
+import main.record.PerformanceRecord;
+import main.record.SaleRecord;
+import main.record.VestRecord;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -28,7 +28,7 @@ public final class RecordHelper {
      * of the stock units. This will get the gain price, this is then used a multiplier to calculte total gain.
      * Rounding is done HALF_UP.
      *
-     * @param vestRecord        This is the original record that represents the vested amount
+     * @param vestRecord        This is the original main.record that represents the vested amount
      * @param marketPriceRecord This is the current market price
      * @return BigDecimal Returns the total gain calculated
      */
@@ -45,7 +45,7 @@ public final class RecordHelper {
      * while experimenting with some calculations. Works correctly for client request, but may need to be looked at for
      * future correctness.
      *
-     * @param vestRecord This is the record of current vested stock, that we need to lookup market price for
+     * @param vestRecord This is the main.record of current vested stock, that we need to lookup market price for
      * @param marketPriceRecords This is the set of all market prices in our data
      * @return MarketPriceRecord Returns the closest Market Price to the date of the vested records
      */
@@ -102,7 +102,7 @@ public final class RecordHelper {
      * The get performance multiplier method will return the current mutliplier to use. Helping create the aggregate of
      * all multipliers.
      *
-     * @param performanceRecord The performance record we are adding to our multiplier aggregate
+     * @param performanceRecord The performance main.record we are adding to our multiplier aggregate
      * @param currentMultiplier The current multiplier
      * @return float Returns the new multiplier aggregate
      */
@@ -114,8 +114,8 @@ public final class RecordHelper {
      * The get Vest Value method returns the total value of the vested option based on the given market price and any
      * performance multipliers
      *
-     * @param vestRecord The vested option record we are running calculations against
-     * @param marketPriceRecord The current market price record
+     * @param vestRecord The vested option main.record we are running calculations against
+     * @param marketPriceRecord The current market price main.record
      * @param multiplier The performance multiplier to use
      * @return BigDecimal Returns the vested option value, will never be negative 0.00 is the lowest
      */

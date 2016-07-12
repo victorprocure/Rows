@@ -4,11 +4,11 @@
 
 package main;
 
-import parser.FileParser;
-import record.ActionRecord;
-import record.IRecordBuilder;
-import record.IRecordVisitor;
-import record.MarketPriceRecord;
+import main.parser.FileParser;
+import main.record.ActionRecord;
+import main.record.IRecordBuilder;
+import main.record.IRecordVisitor;
+import main.record.MarketPriceRecord;
 
 import java.io.BufferedReader;
 import java.io.IOException;

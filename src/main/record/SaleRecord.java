@@ -2,9 +2,9 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package record;
+package main.record;
 
-import helpers.MethodHelpers;
+import main.helpers.MethodHelpers;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -24,7 +24,7 @@ public class SaleRecord extends ActionRecord {
     public void build(String[] columns) {
         RecordAction action = RecordAction.parseAction(columns[0]);
         if(action != RecordAction.SALE){
-            throw new IllegalArgumentException("Not a sales record");
+            throw new IllegalArgumentException("Not a sales main.record");
         }
 
         super.setAction(RecordAction.SALE);

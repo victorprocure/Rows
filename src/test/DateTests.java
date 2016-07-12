@@ -5,9 +5,9 @@
 package test;
 
 import main.Globals;
+import main.parser.DateParser;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import parser.DateParser;
 
 import java.text.DateFormat;
 import java.text.ParseException;

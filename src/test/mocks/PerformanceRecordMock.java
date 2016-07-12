@@ -4,7 +4,7 @@
 
 package test.mocks;
 
-import record.PerformanceRecord;
+import main.record.PerformanceRecord;
 
 public final class PerformanceRecordMock {
     public static PerformanceRecord getPerformanceRecordMock() {

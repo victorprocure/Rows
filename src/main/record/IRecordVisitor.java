@@ -2,11 +2,11 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package record;
+package main.record;
 
 /**
  * Common implementation of the visitor pattern, needed interface
- * A visitor for each type of record
+ * A visitor for each type of main.record
  */
 public interface IRecordVisitor {
     void visit(PerformanceRecord record);

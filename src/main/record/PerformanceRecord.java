@@ -2,7 +2,7 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package record;
+package main.record;
 
 /**
  * This class represents a performance multiplier line
@@ -17,7 +17,7 @@ public class PerformanceRecord extends ActionRecord {
     public void build(String[] columns) {
         RecordAction action = RecordAction.parseAction(columns[0]);
         if(action != RecordAction.PERF){
-            throw new IllegalArgumentException("Not a performance record");
+            throw new IllegalArgumentException("Not a performance main.record");
         }
 
         super.setAction(RecordAction.PERF);

@@ -4,11 +4,11 @@
 
 package test;
 
+import main.record.ActionRecord;
+import main.record.RecordComparer;
+import main.record.VestRecord;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import record.ActionRecord;
-import record.RecordComparer;
-import record.VestRecord;
 import test.mocks.VestRecordMock;
 
 import java.util.TreeSet;

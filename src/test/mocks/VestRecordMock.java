@@ -4,7 +4,7 @@
 
 package test.mocks;
 
-import record.VestRecord;
+import main.record.VestRecord;
 
 public final class VestRecordMock {
     public static VestRecord getVestRecordMock() {

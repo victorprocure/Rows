@@ -2,7 +2,7 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package record;
+package main.record;
 
 /**
  * Interface for all records that need to be built from input lines

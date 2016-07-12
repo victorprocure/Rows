@@ -2,7 +2,7 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package record;
+package main.record;
 
 /**
  * Enum to represent the possible actions the input from our text file can have
@@ -49,7 +49,7 @@ public enum RecordAction {
      * enum is only 3 values. Not a huge deal.
      *
      * @param action The enum action that we wish to get a builder for
-     * @return ActionRecord Returns the correct record builder
+     * @return ActionRecord Returns the correct main.record builder
      */
     public static ActionRecord getBuilder(RecordAction action) {
         switch(action){

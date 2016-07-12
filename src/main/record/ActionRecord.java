@@ -2,10 +2,10 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package record;
+package main.record;
 
-import helpers.MethodHelpers;
-import parser.DateParser;
+import main.helpers.MethodHelpers;
+import main.parser.DateParser;
 
 import java.util.Date;
 

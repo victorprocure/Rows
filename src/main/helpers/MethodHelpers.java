@@ -2,10 +2,10 @@
  * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
  */
 
-package helpers;
+package main.helpers;
 
 /**
- * The method helpers class is a collection of all helpers I've found useful and in order to not repeat code have
+ * The method main.helpers class is a collection of all main.helpers I've found useful and in order to not repeat code have
  * refactored out into their own package.
  *
  * @author Victor Procure

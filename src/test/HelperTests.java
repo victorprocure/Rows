@@ -4,15 +4,15 @@
 
 package test;
 
-import helpers.MethodHelpers;
-import helpers.RecordHelper;
+import main.helpers.MethodHelpers;
+import main.helpers.RecordHelper;
+import main.record.MarketPriceRecord;
+import main.record.PerformanceRecord;
+import main.record.SaleRecord;
+import main.record.VestRecord;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import record.MarketPriceRecord;
-import record.PerformanceRecord;
-import record.SaleRecord;
-import record.VestRecord;
 import test.mocks.MarketPriceRecordMock;
 import test.mocks.PerformanceRecordMock;
 import test.mocks.SaleRecordMock;

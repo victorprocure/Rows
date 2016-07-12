@@ -4,7 +4,7 @@
 
 package test.mocks;
 
-import record.SaleRecord;
+import main.record.SaleRecord;
 
 public final class SaleRecordMock {
     public static SaleRecord getSaleRecordMock() {
