@@ -6,46 +6,106 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20862eb1-a8a8-4e37-8f9c-109f86e4eea2" name="Default" comment="Changed Project Name">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshotUsage.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/treeSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/helpers/MethodHelpers.java" afterPath="$PROJECT_DIR$/src/main/helpers/MethodHelpers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/helpers/RecordHelper.java" afterPath="$PROJECT_DIR$/src/main/helpers/RecordHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/parser/DateParser.java" afterPath="$PROJECT_DIR$/src/main/parser/DateParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/parser/FileParser.java" afterPath="$PROJECT_DIR$/src/main/parser/FileParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/ActionRecord.java" afterPath="$PROJECT_DIR$/src/main/record/ActionRecord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/IRecord.java" afterPath="$PROJECT_DIR$/src/main/record/IRecord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/IRecordBuilder.java" afterPath="$PROJECT_DIR$/src/main/record/IRecordBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/IRecordVisitor.java" afterPath="$PROJECT_DIR$/src/main/record/IRecordVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/MarketPriceComparer.java" afterPath="$PROJECT_DIR$/src/main/record/MarketPriceComparer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/MarketPriceRecord.java" afterPath="$PROJECT_DIR$/src/main/record/MarketPriceRecord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/PerformanceRecord.java" afterPath="$PROJECT_DIR$/src/main/record/PerformanceRecord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/RecordAction.java" afterPath="$PROJECT_DIR$/src/main/record/RecordAction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" afterPath="$PROJECT_DIR$/src/main/record/RecordCalculatorVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/RecordComparer.java" afterPath="$PROJECT_DIR$/src/main/record/RecordComparer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/SaleRecord.java" afterPath="$PROJECT_DIR$/src/main/record/SaleRecord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/record/VestRecord.java" afterPath="$PROJECT_DIR$/src/main/record/VestRecord.java" />
+    <list default="true" id="20862eb1-a8a8-4e37-8f9c-109f86e4eea2" name="Default" comment="Converted to Gradle Build from Maven">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/resources/background.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/resources/tab.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/resources/titlebar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/resources/titlebar_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/allclasses-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/allclasses-noframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/constant-values.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/deprecated-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/help-doc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index-files/index-9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/Globals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/helpers/MethodHelpers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/helpers/RecordHelper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/helpers/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/helpers/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/helpers/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/parser/DateParser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/parser/FileParser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/parser/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/parser/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/parser/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/ActionRecord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/IRecord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/IRecordBuilder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/IRecordVisitor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/MarketPriceRecord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/PerformanceRecord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/RecordAction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/RecordCalculatorVisitor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/RecordComparer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/SaleRecord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/VestRecord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/main/record/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/overview-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/overview-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/overview-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/package-list" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/ComparerTests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/DateTests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/FileTests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/HelperTests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/mocks/MarketPriceRecordMock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/mocks/PerformanceRecordMock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/mocks/SaleRecordMock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/mocks/VestRecordMock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/mocks/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/mocks/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/mocks/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/test/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Rows_jar/Rows.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Rows_jar/input.def" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/helpers/MethodHelpers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/helpers/RecordHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/main/EmployeeRecordManagement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/main/Globals.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/main/RowsApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/parser/DateParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/parser/FileParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/ActionRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecordBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecordVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceComparer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/PerformanceRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordAction$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordAction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordCalculatorVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordComparer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/SaleRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Rows/record/VestRecord.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/EmployeeRecordManagement.java" afterPath="$PROJECT_DIR$/src/main/EmployeeRecordManagement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/RowsApplication.java" afterPath="$PROJECT_DIR$/src/main/RowsApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ComparerTests.java" afterPath="$PROJECT_DIR$/src/test/ComparerTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/DateTests.java" afterPath="$PROJECT_DIR$/src/test/DateTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/FileTests.java" afterPath="$PROJECT_DIR$/src/test/FileTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/HelperTests.java" afterPath="$PROJECT_DIR$/src/test/HelperTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/mocks/MarketPriceRecordMock.java" afterPath="$PROJECT_DIR$/src/test/mocks/MarketPriceRecordMock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/mocks/PerformanceRecordMock.java" afterPath="$PROJECT_DIR$/src/test/mocks/PerformanceRecordMock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/mocks/SaleRecordMock.java" afterPath="$PROJECT_DIR$/src/test/mocks/SaleRecordMock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/mocks/VestRecordMock.java" afterPath="$PROJECT_DIR$/src/test/mocks/VestRecordMock.java" />
     </list>
     <ignored path="Rows.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,16 +127,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecordCalculatorVisitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/record/RecordCalculatorVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SoliumDemo.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoliumDemo.iml">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,14 +137,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RowsApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/RowsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeRecordManagement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/EmployeeRecordManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,9 +194,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,9 +224,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -218,6 +294,7 @@
         <option value="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" />
         <option value="$PROJECT_DIR$/SoliumDemo.iml" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -355,9 +432,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -390,8 +464,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoliumDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoliumDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoliumDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoliumDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoliumDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoliumDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoliumDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Documentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -715,7 +846,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468302668426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Converted to Gradle Build from Maven">
+      <created>1468305088524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1468305088524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -756,26 +894,29 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279003" sideWeight="0.48524764" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.5105374" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854405" sideWeight="0.50842994" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.48946258" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854405" sideWeight="0.4915701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.48524764" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14963119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14699684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49578503" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988495" sideWeight="0.49789253" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279003" sideWeight="0.48524764" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3988495" sideWeight="0.49578503" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -792,7 +933,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Initial" />
     <MESSAGE value="Changed Project Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Project Name" />
+    <MESSAGE value="Converted to Gradle Build from Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted to Gradle Build from Maven" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -808,19 +950,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/record/RecordCalculatorVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/helpers/RecordHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,9 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,17 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/EmployeeRecordManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,13 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/RowsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1035,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-148">
           <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,9 +1188,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,9 +1204,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,11 +1234,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/RowsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/EmployeeRecordManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
