@@ -6,63 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20862eb1-a8a8-4e37-8f9c-109f86e4eea2" name="Default" comment="Initial">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/Victor_Procure.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/ComparerTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/DateTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/FileTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/HelperTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mocks/MarketPriceRecordMock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mocks/PerformanceRecordMock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mocks/SaleRecordMock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mocks/VestRecordMock.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Rows.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Rows_jar/Rows.jar" afterPath="$PROJECT_DIR$/out/artifacts/Rows_jar/Rows.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/helpers/MethodHelpers.class" afterPath="$PROJECT_DIR$/out/production/Rows/helpers/MethodHelpers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/helpers/RecordHelper.class" afterPath="$PROJECT_DIR$/out/production/Rows/helpers/RecordHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/main/EmployeeRecordManagement.class" afterPath="$PROJECT_DIR$/out/production/Rows/main/EmployeeRecordManagement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/main/Globals.class" afterPath="$PROJECT_DIR$/out/production/Rows/main/Globals.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/main/RowsApplication.class" afterPath="$PROJECT_DIR$/out/production/Rows/main/RowsApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/parser/DateParser.class" afterPath="$PROJECT_DIR$/out/production/Rows/parser/DateParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/parser/FileParser.class" afterPath="$PROJECT_DIR$/out/production/Rows/parser/FileParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/ActionRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/ActionRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/IRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecordBuilder.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/IRecordBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecordVisitor.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/IRecordVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceComparer.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceComparer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/PerformanceRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/PerformanceRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordAction$1.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/RecordAction$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordAction.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/RecordAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordCalculatorVisitor.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/RecordCalculatorVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordComparer.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/RecordComparer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/SaleRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/SaleRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/VestRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/VestRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Rows_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Rows_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="20862eb1-a8a8-4e37-8f9c-109f86e4eea2" name="Default" comment="Change">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SoliumDemo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers/MethodHelpers.java" afterPath="$PROJECT_DIR$/src/helpers/MethodHelpers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers/RecordHelper.java" afterPath="$PROJECT_DIR$/src/helpers/RecordHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/EmployeeRecordManagement.java" afterPath="$PROJECT_DIR$/src/main/EmployeeRecordManagement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Globals.java" afterPath="$PROJECT_DIR$/src/main/Globals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/RowsApplication.java" afterPath="$PROJECT_DIR$/src/main/RowsApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parser/DateParser.java" afterPath="$PROJECT_DIR$/src/parser/DateParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parser/FileParser.java" afterPath="$PROJECT_DIR$/src/parser/FileParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/ActionRecord.java" afterPath="$PROJECT_DIR$/src/record/ActionRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/IRecord.java" afterPath="$PROJECT_DIR$/src/record/IRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/IRecordBuilder.java" afterPath="$PROJECT_DIR$/src/record/IRecordBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/IRecordVisitor.java" afterPath="$PROJECT_DIR$/src/record/IRecordVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/MarketPriceComparer.java" afterPath="$PROJECT_DIR$/src/record/MarketPriceComparer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/MarketPriceRecord.java" afterPath="$PROJECT_DIR$/src/record/MarketPriceRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/PerformanceRecord.java" afterPath="$PROJECT_DIR$/src/record/PerformanceRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/RecordAction.java" afterPath="$PROJECT_DIR$/src/record/RecordAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" afterPath="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/RecordComparer.java" afterPath="$PROJECT_DIR$/src/record/RecordComparer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/SaleRecord.java" afterPath="$PROJECT_DIR$/src/record/SaleRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/VestRecord.java" afterPath="$PROJECT_DIR$/src/record/VestRecord.java" />
     </list>
     <ignored path="Rows.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,12 +30,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecordCalculatorVisitor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecordCalculatorVisitor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="664">
               <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#4510#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1126#1127#0" expanded="false" />
+                <element signature="e#1177#1178#0" expanded="false" />
+                <element signature="e#1235#1236#0" expanded="false" />
+                <element signature="e#1279#1280#0" expanded="false" />
+                <element signature="e#1337#1338#0" expanded="false" />
+                <element signature="e#1381#1382#0" expanded="false" />
+                <element signature="e#1446#1447#0" expanded="false" />
+                <element signature="e#1492#1493#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoliumDemo.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SoliumDemo.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelperTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/HelperTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/record/SaleRecord.java" />
         <option value="$PROJECT_DIR$/src/record/VestRecord.java" />
         <option value="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" />
+        <option value="$PROJECT_DIR$/SoliumDemo.iml" />
       </list>
     </option>
   </component>
@@ -294,8 +274,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -311,7 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
+              <option name="myItemId" value="SoliumDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,7 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
+              <option name="myItemId" value="SoliumDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -335,51 +315,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="record" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="SoliumDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SoliumDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
+              <option name="myItemId" value="out" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,7 +330,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/" />
@@ -733,16 +673,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279003" sideWeight="0.4873551" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279003" sideWeight="0.48524764" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3279003" sideWeight="0.5147524" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981783" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14963119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988495" sideWeight="0.49789253" order="3" side_tool="false" content_ui="tabs" />
@@ -751,6 +690,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3988495" sideWeight="0.49578503" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -784,19 +724,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/record/VestRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/FileParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +750,6 @@
         <state relative-caret-position="612">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2987#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -839,7 +767,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#4510#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1177#1178#0" expanded="false" />
+            <element signature="e#1235#1236#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1337#1338#0" expanded="false" />
+            <element signature="e#1381#1382#0" expanded="false" />
+            <element signature="e#1446#1447#0" expanded="false" />
+            <element signature="e#1492#1493#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,9 +786,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#6682#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +832,6 @@
         <state relative-caret-position="765">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#0#2987#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -976,24 +908,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/HelperTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#508#532#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers/RecordHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
           <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#6682#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,9 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#870#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +929,6 @@
         <state relative-caret-position="412">
           <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
           <folding>
-            <element signature="e#0#2987#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1029,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="106" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="11" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,22 +1031,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_rows.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/module_rows.xml" />
     <entry file="file://$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="664">
           <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#4510#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1177#1178#0" expanded="false" />
+            <element signature="e#1235#1236#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1337#1338#0" expanded="false" />
+            <element signature="e#1381#1382#0" expanded="false" />
+            <element signature="e#1446#1447#0" expanded="false" />
+            <element signature="e#1492#1493#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/HelperTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoliumDemo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1203,7 +1131,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
