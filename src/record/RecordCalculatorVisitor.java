@@ -1,19 +1,28 @@
-package record;
+/*
+ * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
+ */
 
-import java.math.BigDecimal;
-import java.util.HashSet;
-import java.util.TreeSet;
+package record;
 
 import helpers.RecordHelper;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.TreeSet;
+
 /**
- * Created by vprocure on 7/11/2016.
+ * The record visitor visits all record types and for the most part adds them to a set list for calculations once
+ * all records have been visited per user
+ *
+ * @author Victor Procure
+ * @version 1.0
+ * @since 2016-07-11
  */
 public class RecordCalculatorVisitor implements IRecordVisitor{
-    private TreeSet<VestRecord> vestRecords;
-    private TreeSet<PerformanceRecord> performanceRecords;
-    private TreeSet<SaleRecord> saleRecords;
-    private TreeSet<MarketPriceRecord> marketRecords;
+    private final TreeSet<VestRecord> vestRecords;
+    private final TreeSet<PerformanceRecord> performanceRecords;
+    private final TreeSet<SaleRecord> saleRecords;
+    private final TreeSet<MarketPriceRecord> marketRecords;
 
     public RecordCalculatorVisitor() {
         this.vestRecords = new TreeSet<>(new RecordComparer());
@@ -43,6 +52,27 @@ public class RecordCalculatorVisitor implements IRecordVisitor{
     }
 
 
+    /**
+     * When all records have been visited this method is called. This allows us to make sure all records are processed
+     * in the correct order, to not interfere with our calculations.
+     * The order of operations for calculations is:
+     * VestRecords > SaleRecords > PerfRecords
+     * Sales have to be subtracted from vested options before performance calculations can be done
+     * <p>
+     * I could've trusted the input directly from the file which already has everything ordered correctly, however
+     * this idea failed when I started at looking at ways to do parallization and chunking the input for quicker processing.
+     * I did abandon these ideas in favor of a quick solution.
+     * <p>
+     * The best I could come up with was iterating through all vested option records, processing sales that came closest
+     * to the record date of those vested options. Then removing that sale from the list of records, to ensure it didn't
+     * get processed twice. Once that is done I calculate performance on the remaining vested options.
+     * <p>
+     * This method is a blatant violation of SRP, however for the sake of getting this solution done quickly due to time
+     * constraints I opted for it. I'm also not a fan of my nested for loops to iterate through the various sets.
+     * Can definitely use some work here.
+     *
+     * @return String Returns a comma delimited total gain and total sales gain amount
+     */
     @Override
     public String output() {
         BigDecimal totalGainedFromSales = BigDecimal.ZERO;
@@ -59,20 +89,20 @@ public class RecordCalculatorVisitor implements IRecordVisitor{
             if(this.saleRecords.iterator().hasNext()) {
                 if (saleRecord != null) {
                     this.saleRecords.remove(saleRecord); // Make sure we don't process this sale again
-                    vr.unitsOrMultiplier -= saleRecord.getUnitsOrMultiplier(); // remove those units, for future performance
+                    vr.unitsOrMultiplier -= saleRecord.getUnitsOrMultiplier(); // remove those units, for future performance calculations if any
 
-                    totalGainedFromSales = totalGainedFromSales.add(RecordHelper.processSale(saleRecord, vr, marketPriceRecord));
+                    totalGainedFromSales = totalGainedFromSales.setScale(2, RoundingMode.HALF_UP).add(RecordHelper.processSale(vr, marketPriceRecord));
                 }
             }
 
             float multiplier = RecordHelper.getPerformanceMultiplier(vr, this.performanceRecords);
-            totalGained = totalGained.add(RecordHelper.getVestValue(vr, marketPriceRecord, multiplier));
+            totalGained = totalGained.setScale(2, RoundingMode.HALF_UP).add(RecordHelper.getVestValue(vr, marketPriceRecord, multiplier));
         }
 
         StringBuilder sb = new StringBuilder();
-        sb.append(totalGained);
+        sb.append(String.format("%.2f", totalGained));
         sb.append(",");
-        sb.append(totalGainedFromSales);
+        sb.append(String.format("%.2f", totalGainedFromSales));
 
         return sb.toString();
     }

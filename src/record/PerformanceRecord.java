@@ -1,7 +1,16 @@
+/*
+ * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
+ */
+
 package record;
 
 /**
- * Created by vprocure on 7/11/2016.
+ * This class represents a performance multiplier line
+ *
+ * @author Victor Procure
+ * @see ActionRecord
+ * @version 1.0
+ * @since 2016-07-11
  */
 public class PerformanceRecord extends ActionRecord {
     @Override

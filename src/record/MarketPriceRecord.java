@@ -1,13 +1,21 @@
-package record;
+/*
+ * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
+ */
 
-import java.math.BigDecimal;
-import java.util.Date;
+package record;
 
 import helpers.MethodHelpers;
 import parser.DateParser;
 
+import java.math.BigDecimal;
+import java.util.Date;
+
 /**
- * Created by vprocure on 7/11/2016.
+ * Record represents the market price
+ *
+ * @author Victor Procur
+ * @version 1.0
+ * @since 2016-07-11
  */
 public class MarketPriceRecord implements IRecordBuilder {
     private BigDecimal marketPrice;
@@ -23,22 +31,22 @@ public class MarketPriceRecord implements IRecordBuilder {
         this.setMarketPrice(columns[1]);
     }
 
+    public Date getMarketPriceDate() {
+        return this.marketPriceDate;
+    }
+
     private void setMarketPriceDate(String date){
         this.marketPriceDate = DateParser.convertStringToDate(date);
+    }
+
+    public BigDecimal getMarketPrice() {
+        return this.marketPrice;
     }
 
     private void setMarketPrice(String price){
         MethodHelpers.checkParameterForNull(price, "Market price cannot be null");
 
         this.marketPrice = new BigDecimal(price);
-    }
-
-    public Date getMarketPriceDate() {
-        return this.marketPriceDate;
-    }
-
-    public BigDecimal getMarketPrice() {
-        return this.marketPrice;
     }
 
     public void accept(IRecordVisitor visitor){

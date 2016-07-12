@@ -2,7 +2,7 @@
   <artifact type="jar" name="Rows:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Rows_jar</output-path>
     <root id="archive" name="Rows.jar">
-      <element id="module-output" name="Rows" />
+      <element id="module-output" name="SoliumDemo" />
     </root>
   </artifact>
 </component>

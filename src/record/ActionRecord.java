@@ -1,18 +1,27 @@
-package record;
+/*
+ * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
+ */
 
-import java.util.Date;
+package record;
 
 import helpers.MethodHelpers;
 import parser.DateParser;
 
+import java.util.Date;
+
 /**
- * Created by vprocure on 7/11/2016.
+ * This is an abstraction of all our action records
+ *
+ * @author Victor Procure
+ * @version 1.0
+ * @since 2016-07-11
+ * @see IRecord
  */
 public abstract class ActionRecord implements IRecord, IRecordBuilder {
-    Date recordDate;
-    String employee;
     float unitsOrMultiplier;
-    RecordAction action;
+    private Date recordDate;
+    private String employee;
+    private RecordAction action;
 
     @Override
     public Date getRecordDate() {

@@ -1,11 +1,21 @@
-package record;
+/*
+ * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
+ */
 
-import java.math.BigDecimal;
+package record;
 
 import helpers.MethodHelpers;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 /**
- * Created by vprocure on 7/11/2016.
+ * This class represents a vested option sale line
+ *
+ * @author Victor Procure
+ * @see ActionRecord
+ * @version 1.0
+ * @since 2016-07-11
  */
 public class SaleRecord extends ActionRecord {
     private BigDecimal salePrice;
@@ -27,11 +37,7 @@ public class SaleRecord extends ActionRecord {
 
     private void setSalePrice(String price){
         MethodHelpers.checkParameterForNull(price, "Sale price cannot be null");
-        this.salePrice = new BigDecimal(price);
-    }
-
-    public BigDecimal getSalePrice(){
-        return this.salePrice;
+        this.salePrice = new BigDecimal(price.trim()).setScale(2, RoundingMode.HALF_UP);
     }
 
     @Override

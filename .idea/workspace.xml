@@ -6,7 +6,64 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20862eb1-a8a8-4e37-8f9c-109f86e4eea2" name="Default" comment="Initial" />
+    <list default="true" id="20862eb1-a8a8-4e37-8f9c-109f86e4eea2" name="Default" comment="Initial">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/Victor_Procure.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/ComparerTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/DateTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/FileTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/HelperTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mocks/MarketPriceRecordMock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mocks/PerformanceRecordMock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mocks/SaleRecordMock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/mocks/VestRecordMock.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rows.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Rows_jar/Rows.jar" afterPath="$PROJECT_DIR$/out/artifacts/Rows_jar/Rows.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/helpers/MethodHelpers.class" afterPath="$PROJECT_DIR$/out/production/Rows/helpers/MethodHelpers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/helpers/RecordHelper.class" afterPath="$PROJECT_DIR$/out/production/Rows/helpers/RecordHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/main/EmployeeRecordManagement.class" afterPath="$PROJECT_DIR$/out/production/Rows/main/EmployeeRecordManagement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/main/Globals.class" afterPath="$PROJECT_DIR$/out/production/Rows/main/Globals.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/main/RowsApplication.class" afterPath="$PROJECT_DIR$/out/production/Rows/main/RowsApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/parser/DateParser.class" afterPath="$PROJECT_DIR$/out/production/Rows/parser/DateParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/parser/FileParser.class" afterPath="$PROJECT_DIR$/out/production/Rows/parser/FileParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/ActionRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/ActionRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/IRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecordBuilder.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/IRecordBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/IRecordVisitor.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/IRecordVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceComparer.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceComparer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/MarketPriceRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/PerformanceRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/PerformanceRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordAction$1.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/RecordAction$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordAction.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/RecordAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordCalculatorVisitor.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/RecordCalculatorVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/RecordComparer.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/RecordComparer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/SaleRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/SaleRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Rows/record/VestRecord.class" afterPath="$PROJECT_DIR$/out/production/Rows/record/VestRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Rows_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Rows_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers/MethodHelpers.java" afterPath="$PROJECT_DIR$/src/helpers/MethodHelpers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers/RecordHelper.java" afterPath="$PROJECT_DIR$/src/helpers/RecordHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/EmployeeRecordManagement.java" afterPath="$PROJECT_DIR$/src/main/EmployeeRecordManagement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Globals.java" afterPath="$PROJECT_DIR$/src/main/Globals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/RowsApplication.java" afterPath="$PROJECT_DIR$/src/main/RowsApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parser/DateParser.java" afterPath="$PROJECT_DIR$/src/parser/DateParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/parser/FileParser.java" afterPath="$PROJECT_DIR$/src/parser/FileParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/ActionRecord.java" afterPath="$PROJECT_DIR$/src/record/ActionRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/IRecord.java" afterPath="$PROJECT_DIR$/src/record/IRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/IRecordBuilder.java" afterPath="$PROJECT_DIR$/src/record/IRecordBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/IRecordVisitor.java" afterPath="$PROJECT_DIR$/src/record/IRecordVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/MarketPriceComparer.java" afterPath="$PROJECT_DIR$/src/record/MarketPriceComparer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/MarketPriceRecord.java" afterPath="$PROJECT_DIR$/src/record/MarketPriceRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/PerformanceRecord.java" afterPath="$PROJECT_DIR$/src/record/PerformanceRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/RecordAction.java" afterPath="$PROJECT_DIR$/src/record/RecordAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" afterPath="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/RecordComparer.java" afterPath="$PROJECT_DIR$/src/record/RecordComparer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/SaleRecord.java" afterPath="$PROJECT_DIR$/src/record/SaleRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/record/VestRecord.java" afterPath="$PROJECT_DIR$/src/record/VestRecord.java" />
+    </list>
     <ignored path="Rows.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,134 +84,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecordCalculatorVisitor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RecordCalculatorVisitor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1186#1187#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/helpers/RecordHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarketPriceComparer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/record/MarketPriceComparer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="467">
+              <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VestRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/record/VestRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/parser/FileParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RowsApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/RowsApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaleRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/record/SaleRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/io/FileInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3298">
-              <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeRecordManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/EmployeeRecordManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarketPriceRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/record/MarketPriceRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -175,40 +110,53 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="FORCE_PUSH_ALLOWED" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/RowsApplication.java" />
-        <option value="$PROJECT_DIR$/src/record/PerformanceRecord.java" />
-        <option value="$PROJECT_DIR$/src/main/Globals.java" />
-        <option value="$PROJECT_DIR$/src/helpers/MethodHelpers.java" />
-        <option value="$PROJECT_DIR$/src/parser/DateParser.java" />
-        <option value="$PROJECT_DIR$/src/record/VestRecord.java" />
-        <option value="$PROJECT_DIR$/src/record/RecordAction.java" />
-        <option value="$PROJECT_DIR$/src/record/IRecordBuilder.java" />
-        <option value="$PROJECT_DIR$/src/record/IRecord.java" />
-        <option value="$PROJECT_DIR$/src/parser/FileParser.java" />
         <option value="$PROJECT_DIR$/src/record/RecordVisitor.java" />
         <option value="$PROJECT_DIR$/src/financial/Units.java" />
         <option value="$PROJECT_DIR$/src/financial/Unit.java" />
         <option value="$PROJECT_DIR$/src/record/RecordUnit.java" />
-        <option value="$PROJECT_DIR$/src/record/ActionRecord.java" />
         <option value="$PROJECT_DIR$/src/main/Employee.java" />
-        <option value="$PROJECT_DIR$/src/record/RecordComparer.java" />
-        <option value="$PROJECT_DIR$/src/record/MarketPriceComparer.java" />
         <option value="$PROJECT_DIR$/src/record/IVisitorDisplay.java" />
-        <option value="$PROJECT_DIR$/src/record/IRecordVisitor.java" />
-        <option value="$PROJECT_DIR$/src/record/MarketPriceRecord.java" />
         <option value="$PROJECT_DIR$/src/parser/OptionParser.java" />
         <option value="$PROJECT_DIR$/src/helpers/SaleHelper.java" />
-        <option value="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" />
-        <option value="$PROJECT_DIR$/src/main/EmployeeRecordManagement.java" />
-        <option value="$PROJECT_DIR$/src/record/SaleRecord.java" />
+        <option value="$PROJECT_DIR$/src/record/RecordComparer.java" />
+        <option value="$PROJECT_DIR$/src/test/mocks/MarketPriceRecordMock.java" />
+        <option value="$PROJECT_DIR$/src/test/mocks/PerformanceRecordMock.java" />
+        <option value="$PROJECT_DIR$/src/test/mocks/SaleRecordMock.java" />
+        <option value="$PROJECT_DIR$/src/test/mocks/VestRecordMock.java" />
+        <option value="$PROJECT_DIR$/src/test/ComparerTests.java" />
+        <option value="$PROJECT_DIR$/src/test/DateTests.java" />
+        <option value="$PROJECT_DIR$/src/test/FileTests.java" />
+        <option value="$PROJECT_DIR$/src/test/HelperTests.java" />
+        <option value="$PROJECT_DIR$/src/helpers/MethodHelpers.java" />
         <option value="$PROJECT_DIR$/src/helpers/RecordHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/EmployeeRecordManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/Globals.java" />
         <option value="$PROJECT_DIR$/src/main/RowsApplication.java" />
+        <option value="$PROJECT_DIR$/src/parser/DateParser.java" />
+        <option value="$PROJECT_DIR$/src/parser/FileParser.java" />
+        <option value="$PROJECT_DIR$/src/record/IRecord.java" />
+        <option value="$PROJECT_DIR$/src/record/ActionRecord.java" />
+        <option value="$PROJECT_DIR$/src/record/IRecordBuilder.java" />
+        <option value="$PROJECT_DIR$/src/record/IRecordVisitor.java" />
+        <option value="$PROJECT_DIR$/src/record/MarketPriceComparer.java" />
+        <option value="$PROJECT_DIR$/src/record/MarketPriceRecord.java" />
+        <option value="$PROJECT_DIR$/src/record/PerformanceRecord.java" />
+        <option value="$PROJECT_DIR$/src/record/RecordAction.java" />
+        <option value="$PROJECT_DIR$/src/record/SaleRecord.java" />
+        <option value="$PROJECT_DIR$/src/record/VestRecord.java" />
+        <option value="$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java" />
       </list>
     </option>
   </component>
@@ -216,7 +164,110 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJava</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>General</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -243,17 +294,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
+              <option name="myItemId" value="SoliumDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
+              <option name="myItemId" value="SoliumDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -263,7 +317,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
+              <option name="myItemId" value="SoliumDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -277,7 +331,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
+              <option name="myItemId" value="SoliumDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -295,25 +349,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
+              <option name="myItemId" value="SoliumDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -331,7 +367,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Rows" />
+              <option name="myItemId" value="SoliumDemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -349,18 +385,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="72" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="72" />
@@ -377,8 +410,12 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="710" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="SoliumDemo" />
   </component>
-  <component name="RunManager" selected="Application.RowsApplication">
+  <component name="RunManager" selected="TestNG.test">
     <configuration default="false" name="RowsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -405,9 +442,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="AntRunConfiguration" factoryName="Ant Target">
-      <method />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -429,6 +463,22 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -583,8 +633,37 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.RowsApplication" />
+    <configuration default="false" name="test" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Rows" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.7" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.test" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RowsApplication" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -616,32 +695,72 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="test - 2016.07.11 at 20h 22m 44s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 20h 22m 50s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 20h 28m 04s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 20h 34m 50s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 20h 40m 00s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 20h 49m 33s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 20h 50m 07s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 20h 50m 22s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 20h 50m 33s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="test - 2016.07.11 at 21h 04m 50s.xml">
+      <configuration name="test" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826748" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279003" sideWeight="0.4873551" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928064" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928064" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.5021075" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49578503" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49367756" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.49789253" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14963119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988495" sideWeight="0.49789253" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39918947" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3988495" sideWeight="0.49578503" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -656,7 +775,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -665,62 +784,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/RecordHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/MarketPriceComparer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/record/VestRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
+        <state relative-caret-position="595">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/FileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="221">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -728,140 +804,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/record/SaleRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="221">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3298">
-          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/EmployeeRecordManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="612">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
+            <element signature="e#0#2987#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/record/MarketPriceRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="595">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/PerformanceRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/RecordVisitor.java" />
-    <entry file="file://$PROJECT_DIR$/src/financial/Unit.java" />
-    <entry file="file://$PROJECT_DIR$/src/record/RecordUnit.java" />
-    <entry file="file://$PROJECT_DIR$/src/record/IVisitorDisplay.java" />
-    <entry file="file://$PROJECT_DIR$/src/record/IRecordVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/IRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/IRecordBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/OptionParser.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Employee.java" />
-    <entry file="file://$PROJECT_DIR$/src/record/RecordAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Globals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/DateParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/MethodHelpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/ActionRecord.java">
+    <entry file="file://$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1071">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/RecordComparer.java">
+    <entry file="file://$PROJECT_DIR$/src/helpers/RecordHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="561">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#6682#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -873,16 +861,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/MarketPriceRecord.java">
+    <entry file="file://$PROJECT_DIR$/src/record/VestRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="663">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -890,16 +873,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/io/FileInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/RowsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3298">
-          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -908,72 +889,258 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/io/FileInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/EmployeeRecordManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
+            <element signature="e#0#2987#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/VestRecord.java">
+    <entry file="file://$PROJECT_DIR$/src/record/MarketPriceRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="731">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/RecordVisitor.java" />
+    <entry file="file://$PROJECT_DIR$/src/financial/Unit.java" />
+    <entry file="file://$PROJECT_DIR$/src/record/RecordUnit.java" />
+    <entry file="file://$PROJECT_DIR$/src/record/IVisitorDisplay.java" />
+    <entry file="file://$PROJECT_DIR$/src/parser/OptionParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Employee.java" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/io/FileInputStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/record/RecordComparer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/mocks/MarketPriceRecordMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/mocks/PerformanceRecordMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/mocks/SaleRecordMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/mocks/VestRecordMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/DateTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/FileTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ComparerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/HelperTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#508#532#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers/RecordHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="1972">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#6682#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java">
+    <entry file="file://$PROJECT_DIR$/src/helpers/MethodHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#0#870#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/EmployeeRecordManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="412">
+          <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
           <folding>
+            <element signature="e#0#2987#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/RowsApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/DateParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/FileParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/IRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/IRecordVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="106" selection-start-line="13" selection-start-column="106" selection-end-line="13" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/ActionRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/IRecordBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/RecordAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/MarketPriceRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/PerformanceRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/SaleRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/VestRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/MarketPriceComparer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_rows.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record/RecordCalculatorVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,6 +1161,18 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Victor Procure</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -1007,7 +1186,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1019,7 +1198,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Rows</last-edited>
+          <last-edited>SoliumDemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

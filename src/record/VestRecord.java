@@ -1,11 +1,21 @@
-package record;
+/*
+ * Copyright (c) 2016. Unless otherwise stated all code developed by Victor Procure
+ */
 
-import java.math.BigDecimal;
+package record;
 
 import helpers.MethodHelpers;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 /**
- * Created by vprocure on 7/11/2016.
+ * This class represents a vested option line
+ *
+ * @author Victor Procure
+ * @see ActionRecord
+ * @version 1.0
+ * @since 2016-07-11
  */
 public class VestRecord extends ActionRecord {
     private BigDecimal grantPrice;
@@ -25,13 +35,18 @@ public class VestRecord extends ActionRecord {
         this.setGrantPrice(columns[4]);
     }
 
-    private void setGrantPrice(String price){
-        MethodHelpers.checkParameterForNull(price, "Grant price cannot be null");
-        this.grantPrice = new BigDecimal(price);
+    public BigDecimal getGrantPrice() {
+        return this.grantPrice;
     }
 
-    public BigDecimal getGrantPrice(){
-        return this.grantPrice;
+    private void setGrantPrice(String price){
+        MethodHelpers.checkParameterForNull(price, "Grant price cannot be null");
+        this.grantPrice = new BigDecimal(price.trim());
+        this.grantPrice = this.grantPrice.setScale(2, RoundingMode.HALF_UP);
+    }
+
+    public void subtractUnits(float amount) {
+        this.unitsOrMultiplier -= amount;
     }
 
     @Override

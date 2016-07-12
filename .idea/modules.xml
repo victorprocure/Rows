@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Rows.iml" filepath="$PROJECT_DIR$/Rows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoliumDemo.iml" filepath="$PROJECT_DIR$/SoliumDemo.iml" />
     </modules>
   </component>
 </project>
